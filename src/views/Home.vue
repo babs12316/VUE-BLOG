@@ -1,4 +1,4 @@
-<template>
+<!--<template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
@@ -6,7 +6,7 @@
 </template>
 
 <script>
-// @ is an alias to /src
+
 import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
@@ -16,3 +16,22 @@ export default {
   }
 };
 </script>
+-->
+
+<template>
+  <div>
+    <Articles></Articles>
+  </div>
+</template>
+
+<script>
+import Articles from "./Articles.vue";
+export default {
+  name: "articles",
+  components: {
+    Articles
+  }
+};
+</script>
+
+<style lang="scss" scoped></style>

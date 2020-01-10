@@ -1,0 +1,56 @@
+{
+  
+    "articles": [
+      {
+        "id": "1",  
+        "image":"https://i2.wp.com/dev98.de/wp-content/uploads/2019/06/dev98-Guzzle-Proxy-1.png?w=830&ssl=1",
+        "date": "2019-06-19",
+        "author":"Elias Henrich",
+        "title": "REQUEST DATA THROUGH A PROXY WITH GUZZLEHTTP – PSR-7 COMPLIANT",
+        "description": "When a Magento shop – or any other PHP application – is required to request data from or transmit data to a remote server, it is often necessary to redirect the traffic through a Http-proxy server. In my case this was essential because the called endpoint allows only certain IP addresses to access the requested ressource. Since I am working from various locations, each having a different IP address, I had to find a way that certain Http-requests are routed…"
+      },
+      {
+        "id": "2",  
+        "image":"https://i0.wp.com/dev98.de/wp-content/uploads/2019/04/IMG_20190315_092933_crop.jpg?resize=830%2C460&ssl=1",
+        "date": "2019-04-10",
+        "author":"Christian Münch",
+        "title": "A VISIT AT OUR FRIENDS OF ATWIX IN LVIV/UKRAINE",
+        "description": "Last month we received an invitation by our friends of Atwix to attend their Barcamp in Lviv/Ukraine. My colleague Oleksandr and me were happy to join it. Oleksandr was the perfect mate, because he was grown up in Ukraine and so he knows everything about the traditions and local specialities. Our journey started in Frankfurt. After a stopover in Munich we arrived on site with enough energy to explore the beautiful city of Lviv. Oleksandr introduced me to the local…"
+
+      },
+      {
+        "id": "3",  
+        "image":"https://i0.wp.com/dev98.de/wp-content/uploads/2018/01/img_dev98_20170115_server-feature_cm.png?fit=830%2C460&ssl=1",
+        "date": "2018-01-02",
+        "author":"Christian Münch",
+        "title": "PSR-7 STANDARD – PART 6 – SERVER REQUESTS",
+        "description": "This post is part of series: Part 1: Overview Part 2: Request and URI Part 3: Response Part 4: File Uploads Part 5: HTTP-Client Part 6: Server Request Part 7: Middleware Part 8: Usage in a Magento module In Part 3 we already discovered the RequestInterface which is used on client side. In this part, we have a more detailed look on the server side. The Server Request inherits all methods of the RequestInterface and has 13 additional methods. Six methods are available to…"
+      },
+      {
+        "id": "4",  
+        "image":"https://i1.wp.com/dev98.de/wp-content/uploads/2017/12/img_dev98_20170115_http-client-feature_cm.png?resize=830%2C460&ssl=1",
+        "date": "2019-06-19",
+        "author":"Christian Münch",
+        "title": "PSR-7 STANDARD – PART 5 – HTTP CLIENT",
+        "description": "This post is part of series: Part 1: Overview Part 2: Request and URI Part 3: Response Part 4: File Uploads Part 5: HTTP-Client Part 6: Server Request Part 7: Middleware Part 8: Usage in a Magento module The fifth part of the PSR-7 series describes the HTTP Client. The HTTP client is tool which sends a request to a server and returns the response. Sadly PSR-7 does not contain an interface for the HTTP client. The Standard contains only the HTTP messages. The…"
+      },
+      {
+        "id": "5",  
+        "image":"https://i2.wp.com/dev98.de/wp-content/uploads/2017/12/img_dev98_20171208_dev-to-localhost.png?resize=830%2C460&ssl=1",
+        "date": "2017-12-08",
+        "author":"Matthias Walter",
+        "title": "CHROME 63 VS. DEV DOMAINS",
+        "description": "With the recent update to version 63 for Chrome they introduced a feature, that redirects all *.dev  calls from HTTP to HTTPS. If you are using *.dev  domains to access your development machine, this behaviour is probably not what you want for all your local urls. Configuring dnsmasq At netz98 we are using dnsmasq to redirect all *.dev  calls to our localhost. dnsmasq has a setting where you can easily change this to another domain like *.localhost . First of locate…"
+      },
+      {
+        "id": "6",  
+        "image":"https://i0.wp.com/dev98.de/wp-content/uploads/2017/11/docker-mailhog-php.png?fit=830%2C460&ssl=1",
+        "date": "2017-11-20",
+        "author":"Christian Münch",
+        "title": "RUN MAILHOG IN DOCKER AND USE IT IN PHP",
+        "description": "This post describes how you can install and configure Mailhog as SMTP Server for your local PHP development environment. This is useful to catch all outgoing emails. A running PHP and Docker environment is required to follow the instructions. Install Mailhog On my local machine, I have docker-compose.yml file which contains a lot of services (e.g MySQL, Elastic, Redis) which I use during the daily development. For our mailhog example we need only one service. Please create a docker-compose.yml with…"
+      }
+      
+    ]
+  }
+  
