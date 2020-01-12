@@ -1,20 +1,19 @@
 <template>
-    <div class="myimage">
-          <img :src="image">
-    </div>
+  <div class="myimage">
+    <img :src="image" />
+  </div>
 </template>
 
 <script>
-    export default {
-         props: ['image'],
-    }
+export default {
+  props: ["image"]
+};
 </script>
 
 <style lang="scss" scoped>
 img {
   display: block;
-    margin: 0 auto 15px;
-    width:100%;
+  margin: 0 auto 15px;
+  width: 100%;
 }
-
 </style>

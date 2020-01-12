@@ -24,6 +24,8 @@
             <DescriptionComponent
               :description="blogArticles[section][id].description"
             ></DescriptionComponent>
+            <br />
+            <a href="/" id="back">&lt;&lt; back</a>
           </div>
         </b-col>
       </b-row>
@@ -79,11 +81,32 @@ export default {
     color: rgba(44, 62, 80, 0.5);
     font-weight: bold;
   }
+  #back {
+    font-size: 20px;
+    color: rgb(112, 128, 144);
+  }
 }
 
+@media only screen and (max-width: 767px) {
+  .container {
+    margin-top: 25%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #back {
+    padding: 15px;
+    border: 1px solid rgb(112, 128, 144);
+    border-radius: 6px;
+  }
+  a#back:hover {
+    background: rgb(112, 128, 144);
+    color: #fff;
+    text-decoration: none;
+  }
+}
 @media only screen and (min-width: 991px) {
   .container {
-    margin-top: 3%;
     .date {
       margin-top: 1%;
       margin-right: 20%;

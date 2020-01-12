@@ -52,7 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  margin-top: 2%;
+  margin-top: 6%;
 }
 .card {
   border: 2px solid #ccc;

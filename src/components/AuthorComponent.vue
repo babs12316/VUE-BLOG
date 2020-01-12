@@ -1,16 +1,13 @@
 <template>
-    <div class="author">
-     {{author}}
-    </div>
+  <div class="author">
+    {{ author }}
+  </div>
 </template>
 
 <script>
-    export default {
-         props: ['author'],
-    }
+export default {
+  props: ["author"]
+};
 </script>
 
-<style lang="scss" scoped>
-
-
-</style>
+<style lang="scss" scoped></style>

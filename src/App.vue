@@ -1,14 +1,15 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <h1 class="headline center">Vue blog</h1>
-      <router-link to="/" id="home">Home</router-link>
-    </div>
+    <HeaderComponent></HeaderComponent>
     <router-view />
+    <FooterComponent></FooterComponent>
   </div>
 </template>
 
 <style lang="scss">
+body {
+  padding-bottom: 5%;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,7 +23,7 @@
     border-radius: 6px;
     font-size: 20px;
   }
-  .center {
+  /*.center {
     text-align: center;
   }
   .headline {
@@ -35,6 +36,16 @@
     color: #35495e;
     text-transform: capitalize;
     margin-bottom: 2rem;
-  }
+  }*/
 }
 </style>
+<script>
+import HeaderComponent from "@/components/layout/HeaderComponent.vue";
+import FooterComponent from "@/components/layout/FooterComponent.vue";
+export default {
+  components: {
+    HeaderComponent,
+    FooterComponent
+  }
+};
+</script>
