@@ -83,12 +83,21 @@ export default {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
   }
 }
+@media only screen and (max-width: 450px) {
+  .container {
+    margin-top: 25%;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 451px) {
+  .container {
+    margin-top: 12%;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .card {
     width: 100%;
-  }
-  .container {
-    margin-top: 8%;
   }
 }
 </style>
