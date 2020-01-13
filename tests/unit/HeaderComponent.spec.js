@@ -6,7 +6,7 @@ describe("HeaderComponent", () => {
 
   it("renders the correct markup", () => {
     expect(wrapper.html()).toContain(
-      '<h1 class="headline center">Vue Blog</h1>'
+      '<h1 class="headline center"><a href="/">Vue Blog</a></h1>'
     );
   });
 });

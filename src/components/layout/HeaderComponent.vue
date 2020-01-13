@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h1 class="headline center">Vue Blog</h1>
+    <h1 class="headline center"><a href="/">Vue Blog</a></h1>
   </div>
 </template>
 
@@ -14,6 +14,14 @@ export default {};
   top: 0px;
   width: 100%;
   background: slategray;
+  h1 {
+    a {
+      color: #fff;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
   .center {
     text-align: center;
   }
